@@ -2,6 +2,5 @@ import sys
 sys_input=sys.stdin.readline
 
 n=int(sys_input())
-
-print(1)
-print(0)
+print(n*(n-1)//2)
+print(2)
