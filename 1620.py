@@ -3,8 +3,8 @@ import sys
 sys_input=sys.stdin.readline
 
 n,m=map(int,sys_input().rstrip().split())
-pton={} #Æ÷ÄÏ¸ó -> ¹øÈ£
-ntop={} #¹øÈ£ -> Æ÷ÄÏ¸ó
+pton={} #í¬ì¼“ëª¬ -> ë²ˆí˜¸
+ntop={} #ë²ˆí˜¸ -> í¬ì¼“ëª¬
 
 for i in range(1,n+1):
     name=sys_input().rstrip()
@@ -13,7 +13,7 @@ for i in range(1,n+1):
 
 for _ in range(m):
     q=sys_input().rstrip()
-    if q[0]<'0' or q[0]>'9': #¼ıÀÚÀÎÁö È®ÀÎÇÏ´Â °úÁ¤
+    if q[0]<'0' or q[0]>'9': #ìˆ«ìì¸ì§€ í™•ì¸í•˜ëŠ” ê³¼ì •
         print(pton[q])
     else:
         print(ntop[int(q)])
