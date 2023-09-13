@@ -19,7 +19,5 @@ for i in range(d+1):
     for g in graph:
         if g[0]==i:
             dp[g[1]]=min(dp[g[1]],dp[i]+g[2])
-            print(i,g[1],g[2],dp[g[1]])
 
-print(dp[190])
 print(dp[d])
