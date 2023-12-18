@@ -51,7 +51,7 @@ public class p10972 {
 
         Arrays.sort(arr, idx, n);
 
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
 
